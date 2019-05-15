@@ -26,10 +26,10 @@ scores.forEach(value -> {
 });
 ```
 ###### Thoughts
-* removed 10 lines of code.
-* adding more methods to a stream is always satisfying. :smile:
+* removed 10 lines of code
+* adding more methods to a stream is always satisfying
 
-* I feel I wouldn't have known what `Collectors.groupingBy()` did without looking it up.
-* Second approach is more familiar and simple but would require me to mentally step through to know what it did.
+* I feel I wouldn't have known what `Collectors.groupingBy()` did without looking it up
+* Second approach is more familiar and simple but would require me to mentally step through to know what it did
 
 [Reference](https://stackoverflow.com/questions/44367203/how-to-count-duplicate-elements-in-arraylist)
