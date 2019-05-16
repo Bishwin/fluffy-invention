@@ -6,7 +6,6 @@ A lil collection of notes while learning Java streams
 Using `Collectors.groupingBy()` method you can count duplicates like so:
 ```
 Map<Integer, Long> scoreboard = Arrays.stream(dice)
-        .sorted()
         .boxed()
         .collect(Collectors.groupingBy(Function.identity(), Collectors.counting()));
 ```
